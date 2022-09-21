@@ -1,13 +1,20 @@
+/* The comments on this stylesheet match the structure and comments of the HTML page. You can use this to guide you in identifying elements for both the CSS and Index files.*/ 
+/* Due to body, hero (jumbotron), p, and copyright (footer) contain the smallest amount of changes. They can be found at the bottom of this style sheet.*/
+
+/* Global CSS */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* End of global CSS */
 
-body {
-    background-color: #d9dcd6;
-}
 
+
+
+
+
+/* Beginning of the nav bar CSS */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +31,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +39,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header section ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -45,18 +52,66 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* End of nav bar CSS*/
 
-p {
-    font-size: 16px;
+
+
+
+
+
+/* Beginning of middle horizontal content CSS */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -74,7 +129,14 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+/* End of middle horizontal content CSS */
 
+
+
+
+
+
+/* Beginning of middle verticle section CSS*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,61 +195,13 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* End of middle verticle content CSS */
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Beginning of copyright CSS */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +212,36 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* End of copyright CSS*/
+
+
+
+
+/* Beginning of paragraph font size CSS */
+p {
+    font-size: 16px;
+}
+/* End of paragraph font size CSS */
+
+
+
+
+/* Jumbotron photo CSS */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* End jumbotron photo CSS */
+
+
+
+
+/* Color of website background CSS */
+body {
+    background-color: #d9dcd6;
+}
+/* End of website background color CSS */
